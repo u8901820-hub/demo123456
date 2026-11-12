@@ -1,0 +1,6 @@
+{
+  "name": "BODHI · My Reincarnation Wellness & Regression Centre",
+  "description": "Comprehensive transpersonal healing platform for BODHI Wellness Centre (Dharwad) featuring Past Life Regression therapy, Clinical Hypnotherapy, Aura biofield photography, client booking portal, spiritual journal, and member dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

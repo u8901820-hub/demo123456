@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Luminous Light Spiritual & Royal Purple Palette (from myreincarnation.in) */
+  --color-bodhi-purple: #5b2373;
+  --color-bodhi-purple-dark: #421654;
+  --color-bodhi-purple-light: #7a3597;
+  --color-bodhi-purple-soft: #fbf5fc;
+  
+  --color-bodhi-gold: #d97706;
+  --color-bodhi-gold-light: #f59e0b;
+  --color-bodhi-gold-soft: #fef3c7;
+  
+  --color-bodhi-cream: #fff8ee;
+  --color-bodhi-peach: #ffeed3;
+  --color-bodhi-bg: #faf8f5;
+  --color-bodhi-surface: #ffffff;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+  background-color: #faf8f5;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+  background-color: #faf8f5;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+}
